@@ -1,6 +1,6 @@
 # Zaviv social asset library
 
-This directory contains the 20 campaign concepts requested for Zaviv. Product imagery comes from the original nine app-feature posts in the repository; interview edits come from the original seven vertical videos.
+This directory contains the Zaviv campaign asset library. Product imagery comes from the original nine app-feature posts in the repository; interview edits come from the original seven vertical videos.
 
 | # | Deliverable | Files | Format |
 |---|---|---:|---|
@@ -24,6 +24,7 @@ This directory contains the 20 campaign concepts requested for Zaviv. Product im
 | 18 | Competitive-moat carousel | 5 | 1080×1350 PNG |
 | 19 | Developer/founder meme pack | 6 | 1080×1350 PNG |
 | 20 | Social profile kit | 4 | X, LinkedIn, YouTube, and avatar PNGs |
+| 21 | “Away from your computer” product story | 3 | 1080×1920 MP4 with BGM, no-BGM MP4, and poster PNG |
 
 ## Rebuild
 
@@ -36,3 +37,5 @@ Run from the repository root on macOS:
 The script also accepts `statics`, `videos`, `adaptations`, or `quotes`. It requires ImageMagick and FFmpeg. Video adaptations use the macOS VideoToolbox H.264 encoder. The source generation plate and its built-in image-generation prompt are documented in [`_brand/IMAGEGEN_PROMPT.md`](./_brand/IMAGEGEN_PROMPT.md).
 
 The feature demos, montage, trailer, and cinematic ad are intentionally silent so they work as caption-first social motion assets. The interview recuts and platform adaptations retain the source audio.
+
+Asset 21 has an editable Remotion project in [`../video-shotcraft/zaviv-away-workflow`](../video-shotcraft/zaviv-away-workflow). Run `npm install`, then `npm run render` or `npm run render:nobgm` from that directory.

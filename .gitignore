@@ -1,0 +1,3 @@
+# macOS Finder metadata — written into any directory that gets browsed,
+# which in an asset repo is all of them.
+.DS_Store
